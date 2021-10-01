@@ -2,7 +2,7 @@
 	"Name": "Cats And Dogs",
 	"Enabled": true,
 	"Hidden": true,
-	"Version": "2.0",
+	"Version": "2.1",
 	"Description": "Contains the ridiculousness that is the Mad Cat 0.5 light mech (custom mech). Also adds the Mad Cat III, Mad Cat Mk IV, and Mad Dog IV! Recommend reading readme.txt to add custom scaling to CustomUnits otherwise the Mad Cats will look like fullsize Timber Wolves which is a bit big for a 35/55 ton mech! Gear that is special for the chassis were also added like the Improved Heavy Large Laser and Endo-Composite Structure.",
 	"Author": "Revostae & Turtrus",
 	"Website": "",
