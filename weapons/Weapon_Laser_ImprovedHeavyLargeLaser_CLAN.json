@@ -1,0 +1,88 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/l/heavy"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 80
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"WeaponBoom: 80",
+				"WpnCrits: -50%"
+			]
+		}
+	},
+	"Category": "Energy",
+	"Type": "Laser",
+	"WeaponSubType": "LargeLaser",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 54,
+	"Damage": 80,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"FireTerrainChance": 0,
+	"ColorsTable": [
+		{
+			"C": "#009DDB",
+			"I": 5
+		}
+	],
+	"ImprovedBallistic": true,
+	"ColorSpeedChange": 1,
+	"ColorChangeRule": "Linear",
+	"WeaponEffectID": "WeaponEffect-Weapon_LaserER_Large",
+	"Description": {
+		"Cost": 1176000,
+		"Rarity": 10,
+		"Purchasable": true,
+		"Manufacturer": "CLAN",
+		"Model": "Large Laser",
+		"UIName": "Improved Heavy L Laser (C)",
+		"Id": "Weapon_Laser_ImprovedHeavyLargeLaser_CLAN",
+		"Name": "Improved Heavy L Laser (C)",
+		"Details": "The Improved Heavy Large Laser is Clan Goliath Scorpion's most powerful Heavy Laser design. Like the version introduced by Clan Star Adder, it can inflict twice the damage of a standard Large Laser. Unlike the Star Adder's weapon, it doesn't interfere with targeting systems, so Scorpion Warriors have a better chance of hitting their target.",
+		"Icon": "uixSvgIcon_weapon_Energy"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 4,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_long"
+		],
+		"tagSetSourceFile": ""
+	}
+}

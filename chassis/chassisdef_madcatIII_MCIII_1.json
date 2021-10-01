@@ -1,0 +1,254 @@
+{
+	"Custom": {
+		"ArmActuatorSupport": {
+			"LeftLimit": "Lower",
+			"RightLimit": "Lower"
+		},
+		"AssemblyVariant": {
+			"PrefabID": "MadCatIII",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endocomposite_CLAN",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"Description": {
+		"Cost": 13946796,
+		"Rarity": 6,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Mad Cat III",
+		"Id": "chassisdef_madcatIII_MCIII_1",
+		"Name": "Mad Cat III",
+		"Details": "With the success of the Mad Cat Mk II design Clan Diamond Shark developed the Mad Cat III as a medium 'Mech to accompany the heavy Mad Cat and assault Mad Cat II. Intended for sale to both Inner Sphere and Clan customers, it has been shunned by the Clans save for the Nova Cats and Exiled Wolves. However, it has proven popular with the Successor States and the Republic of the Sphere. With its top speed of 97 km/h, the Mad Cat III can quickly close with enemies to bring its short-range ER Micro Lasers to bear or it can stay at a distance and strike from afar with it's two LRM20 racks equipped with Artemis IV and 4 ER Medium Lasers. It makes use of weight-saving technologies in the form of an XL Engine, Ferro Fibrous Armor, and an Endo-Composite structure. However, the MC III 1 suffers from cooling issues due to only having a meager 12 Double Heat Sinks and a lot of high heat weaponry.",
+		"Icon": "uixTxrIcon_madcat"
+	},
+	"MovementCapDefID": "movedef_madcatIII",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_madcat",
+	"PrefabIdentifier": "chrprfmech_madcatbase-001",
+	"PrefabBase": "madcat",
+	"Tonnage": 55,
+	"InitialTonnage": 5.5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 8144000,
+	"Heatsinks": 0,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"MaxJumpjets": 99,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 50,
+	"MeleeInstability": 15,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 50,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 50,
+	"DFAInstability": 15,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 90,
+			"MaxRearArmor": -1,
+			"InternalStructure": 45
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": 30,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 135,
+			"MaxRearArmor": 45,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": 30,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 90,
+			"MaxRearArmor": -1,
+			"InternalStructure": 45
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 12.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 11.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 11.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 12.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 11.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 11.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 2,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "MC III 1",
+	"ChassisTags": {
+		"items": [
+			"ClanMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "BattleMech Of The Future",
+	"YangsThoughts": "With the success of the Mad Cat Mk II design Clan Diamond Shark developed the Mad Cat III as a medium 'Mech to accompany the heavy Mad Cat and assault Mad Cat II. Intended for sale to both Inner Sphere and Clan customers, it has been shunned by the Clans save for the Nova Cats and Exiled Wolves. However, it has proven popular with the Successor States and the Republic of the Sphere. With its top speed of 97 km/h, the Mad Cat III can quickly close with enemies to bring its short-range ER Micro Lasers to bear or it can stay at a distance and strike from afar with it's two LRM20 racks equipped with Artemis IV and 4 ER Medium Lasers. It makes use of weight-saving technologies in the form of an XL Engine, Ferro Fibrous Armor, and an Endo-Composite structure. However, the MC III 1 suffers from cooling issues due to only having a meager 12 Double Heat Sinks and a lot of high heat weaponry.",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}
