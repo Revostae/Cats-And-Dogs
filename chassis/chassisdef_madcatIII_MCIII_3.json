@@ -242,7 +242,8 @@
 	"VariantName": "MC III 3",
 	"ChassisTags": {
 		"items": [
-			"ClanMech"
+			"ClanMech",
+			"mr-resize-0.85"
 		],
 		"tagSetSourceFile": ""
 	},

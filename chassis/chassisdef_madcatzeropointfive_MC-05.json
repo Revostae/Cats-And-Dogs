@@ -327,7 +327,8 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
-			"ClanMech"
+			"ClanMech",
+			"mr-resize-0.73"
 		],
 		"tagSetSourceFile": ""
 	},
